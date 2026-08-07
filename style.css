@@ -1,0 +1,512 @@
+body{
+    margin: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.fixed-header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: blue;
+    color: whitesmoke;
+    padding-top: 10px;
+    padding-left: 20px;
+    z-index: 100;
+}
+.fixed-header ul{
+    display: flex;
+    list-style: none;
+    gap: 25px;
+}
+.fixed-header a{
+    text-decoration: none;
+    color: whitesmoke;
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-right: 40px;
+}
+.fixed-header a:hover{
+    cursor: pointer;
+    background-color: lightskyblue;
+    color: white;
+    padding: 10px;
+    border-radius: 10px;
+}
+#home-page{
+    background-color: rgb(200, 226, 235);
+}
+.first-container{
+    background-image: url(https://images.openai.com/static-rsc-4/yVQZGeCQGgt3fy5nWMi6ni2jae4UIu2OwYvJ9qSWVTFuHIFA65wuqdm5gQG2PihGhde58M0BaqxHVI96IcYl3TQtqXPhgf-RSg4-6GoBTyeDIIsAgDxccOM_Vqja1Awq0Zs9-gbaakZ8kS6Uxdp1LZ-y4v4fh76o94bKgeu9FEP44oKVBdcKFuB6hfyurtFV?purpose=fullsize);
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+}
+.first-content{
+    padding-top: 240px;
+    width: 600px;
+    padding-left: 70px;
+    color: white;
+}
+.first-content h1{
+    font-size: 4rem;
+}
+.first-content span{
+    color: #bae6fd;
+}
+.first-content p{
+    font-size: 1.6rem;
+    line-height: 2;
+}
+.view{
+    border-radius: 16px;
+    background-color: navy;
+    padding: 20px;
+    border: 0 solid;
+    font-weight: bold;
+    font-size: 1.4rem;
+}
+.view:hover{
+    cursor: pointer;
+    background-color: rgb(2, 2, 67);
+}
+#experience{
+    padding-top: 80px;
+    text-align: center;
+    min-height: 100vh;
+}
+.experience-container{
+    margin-left: 35px;
+    margin-top: 40px;
+    display: flex;
+    gap: 40px;
+}
+.experience-card{
+    width: 450px;
+    border-radius: 16px;
+    background-color: #dff6ff;
+}
+.experience-photo img{
+    width: 100%;
+    border-radius: 16px 16px 0px 0px;
+    height: 300px;
+}
+.experience-content{
+    padding: 20px;
+    font-size: 1.1rem;
+}
+#reason{
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+}
+.whychoose{
+    padding: 40px;
+    font-size: 1.2rem;
+}
+#destination-page{
+    background-color: lightblue;
+}
+
+.destination-background{
+    background-image: url(https://blog.tripcetera.com/wp-content/uploads/2019/05/55640761_ML.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    padding-right: 90px;
+}
+.destination-title{
+    padding-top: 100px;
+    text-align: center;
+    width: 650px;
+    padding: 20px;
+    color: white;
+    text-shadow: 5px 5px 12px (rgba(0,0, 0,0.9));
+}
+.destination-title span{
+    color: #facc15;
+}
+.destination-title h1{
+    font-size: 4rem;
+    margin-bottom: 70px;
+}
+.destination-title p{
+    font-size: 1.4rem;
+    margin-top: 70px;
+    line-height: 2;
+}
+.explore-destination{
+    padding: 20px;
+    text-align: center;
+    border-radius: 16px;
+    background: navy;
+    border: 0px solid;
+}
+.explore-destination:hover{
+    cursor: pointer;
+    background-color: rgb(2, 2, 67);
+}
+#destination{
+    min-height: 100vh;
+    padding-top: 5px;
+}
+#destination h1{
+    text-align: center;
+    padding-top: 40px;
+    margin-bottom: 1px;
+}
+.destination-container{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    column-gap: 30px;
+    margin-top: 1px;
+    padding-left: 30px;
+}
+.destination-card{
+    width: 450px;
+    background-color: #dff6ff;
+    margin-top: 50px;
+    border-radius: 16px;
+    height: 420px;
+}
+.destination-photo img{
+    width: 100%;
+    border-radius: 16px 16px 0px 0px;
+    height: 200px;
+    object-fit: cover;
+}
+.destination-content{
+    padding-left: 20px;
+    padding-right: 10px;
+}
+#hotel{
+    min-height: 100vh;
+    padding-top: 80px;
+    align-items: center;
+}
+#hotel h1{
+    text-align: center;
+    padding-top: 40px;
+}
+.hotel-container{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 40px;
+    margin-top: 30px;
+    margin-left: 40px;
+}
+.hotel-card{
+    background-color: #dff6ff;
+    border-radius:16px ;
+}
+.hotel-image img{
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 16px 16px 0px 0px;
+}
+.hotel-review{
+    padding: 20px;
+}
+.view-detail{
+    background-color: navy;
+    border-radius: 16px;
+    text-align: center;
+    border: 0px solid;
+    padding: 10px;
+    width: 100%;
+}
+.view-detail:hover{
+    cursor: pointer;
+    background-color: rgb(2, 2, 67);
+}
+#food-page{
+    background-color:lightblue;  
+}
+#food-herobanner{
+    display: flex;
+    gap: 120px;
+    min-height: 100vh;
+}
+.food-content{
+    width: 600px;
+    padding-top: 170px;
+    padding-left: 60px;
+    line-height: 2;
+    font-size: 1.4rem;
+    color:#003b5c;
+}
+.explorefood{
+    background-color: navy;
+    border-radius: 16px;
+    border: 0 solid;
+    padding: 20px;
+    font-weight: bold;
+    font-size:1.4rem ;
+    margin-top: 20px;
+}
+.explorefood:hover{
+    cursor: pointer;
+    background-color: rgb(2, 2, 67);
+}
+.food-content span{
+    color: white;
+    text-shadow: 2px 2px 6px gray;
+}
+.photo{
+    padding-top: 220px;
+    width: 700px;
+}
+.photo img{
+    width: 100%;
+    border-radius: 40px;
+}
+#localfood{
+    min-height: 100vh;
+    background-color: lightblue;
+}
+#localfood h1{
+    text-align: center;
+}
+.foodcontainer{
+    padding-top: 5px;
+    padding-left: 20px;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    row-gap: 8px;
+}
+.foodcard{
+    background-color: aliceblue;
+    width: 400px;
+    height: 400px;
+    border-radius: 16px;
+}
+.foodcard h3{
+    margin-top: 1px;
+    margin-bottom: 1px;
+}
+.foodcard p{
+    margin-top: 2px;
+}
+.explain{
+    padding: 10px;
+}
+.foodcard img{
+    width: 100%;
+    border-radius: 16px 16px 0px 0px;
+    height: 250px;
+    object-fit: cover;
+}
+#restaurants h1{
+    text-align: center;
+}
+.restaurants-card{
+    width: 450px;
+    background-color: #dff6ff;
+    border-radius: 16px;
+    margin-top: 20px;
+}
+.restaurants-card img{
+    width: 100%;
+    border-radius: 16px 16px 0px 0px;
+    height: 290px;
+    object-fit: cover;
+}
+.review{
+    padding: 20px;
+}
+.review h3{
+    margin-top: 0px;
+}
+.web{
+    width: 40%;
+}
+.direction{
+    width: 50%;
+}
+.restaurants-review{
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+    margin-left: 35px;
+}
+#gallery-page{
+    background-color: lightblue;
+}
+.gallery-hero{
+    background-image: url(https://images.openai.com/static-rsc-4/BsdwNivq3JP9h5aYrouWbhwffG1ip_jF8rmEa2UfF8n36FxbwbXIAR3IolXLbl8MmEirQrVImcEc2nUHJzSNHFj1Fo3Mf84RLYxtfoi-QmQVGfOmo_0RDVo1awaAHAUAmbZvfOtOtyXUpuK-X9ofTjJxOYWpYouEK9nvGeOhuNhwcQX8TRgwdG6N7TKRef8o?purpose=fullsize);
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.gallery-title{
+    background-color: rgba(0,0, 0,0.5);
+    color: white;
+    width: 100%;
+}
+#gallery{
+    min-height: 100vh;
+    padding-top: 80px;
+}
+#gallery h1{
+    text-align: center;
+}
+.gallery-container{
+    display: grid;
+   grid-template-columns: repeat(4,1fr);
+   row-gap: 10px;
+   margin-left: 40px;
+   margin-top: 40px;
+}
+.gallery-card{
+    background-color: #dff6ff;
+    width: 300px;
+    height: 300px;
+    padding: 10px;
+}
+.gallery-card img{
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+}
+#CTA{
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+}
+.CTA-container{
+    display: flex;
+    gap: 50px;
+    margin-left: 30px;
+    margin-top: 40px;
+}
+.CTA-image{
+    width: 700px;
+    height: 500px;
+}
+.CTA-image img{
+    width: 100%;
+    height: 500px;
+    object-fit: cover;
+    border-radius: 12px;
+}
+.CTA-content{
+    width: 680px;
+    padding: 20px;
+}
+.CTA-content h1{
+    font-size: 2rem;
+}
+.CTA-content p{
+    font-size: 1.4rem;
+    line-height: 2;
+}
+#contact-page{
+    background-color: lightblue;
+}
+#detail-contact{
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    background-color: #dff6ff;
+    color: #003b5c;
+}
+#section1{
+    background-color: lightblue;
+}
+.container{
+    background-image: url(https://images.openai.com/static-rsc-4/COjrhyaWXcv7GnAkJTf1EtIFxJ_qKS3am0SNRdIwt-UeoW7pR1dC280TPfiwFD_IXCb1r6ISHie36xElSla9hdmJmB6GYa1945TrPqklph0hA1UWn7SoYecwZ9KeRiGXegQmOV6s_DuZrFv9vDrpy8jkR7avXQPAsRk6w3dHq6LIML4El0U01RhJhOF0zMSw?purpose=fullsize);
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+.container-content{
+    color:white;
+    text-align:center;
+    font-size: 2.5rem;
+    position: absolute;
+    top: 200px;
+    left: 60px;
+    background-color: rgba(0,0, 0,0.5);
+    width: 900px;
+}
+.content{
+    color: white;
+    text-align: center;
+    font-size: 1.7rem;
+    width: 900px;
+    height: auto;
+    line-height: 2;
+    position: absolute;
+    bottom: 100px;
+    right: 80px;
+    background-color: rgba(0,0, 0,0.5);
+}
+.card{
+    background-color: aliceblue;
+    width: 500px;
+    height: 500px;
+    border-radius: 16px;
+    padding-top: 50px;
+}
+.contact-method{
+    display: flex;
+    gap: 90px;
+}
+.detail{
+    width:500px;
+    height: 500px;
+    border-radius: 16px;
+    line-height: 2;
+    font-size: 1.1rem;
+    margin-top: 50px;
+}
+.detail p{
+    font-size: 1.3rem
+}
+ .detail-contact h1{
+    color: navy;
+}
+.detail-contact h3{
+    color: rgb(46, 46, 97);
+    font-size: 1.3rem;
+}
+.detail-contact{
+    display: flex;
+    flex-direction: row;
+    gap: 150px;
+}
+.form{
+    background-color: aliceblue;
+    width: 700px;
+    height: 600px;
+    border-radius: 16px;
+}
+button{
+    width: 50%;
+    text-align: center;
+    background-color: blue;
+    color: white;
+    border: 1px solid blue;
+    border-radius: 10px;
+    padding: 10px;
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+button:hover{
+    cursor: pointer;
+    background-color: navy;
+}
