@@ -510,3 +510,249 @@ button:hover{
     cursor: pointer;
     background-color: navy;
 }
+@media(max-width:768px){
+    .fixed-header{
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    .fixed-header h1{
+        font-size: 0.5rem;
+    }
+    .fixed-header ul{
+        gap: 0px;
+        padding-left: 0px;
+    }
+    .fixed-header a{
+        font-size: 0.5rem;
+        margin-left: 2px;
+    }
+    .first-container{
+         justify-content: center;
+        padding-right: 0px;
+    }
+    .first-content{
+        width: 90%;
+        padding: 15px;
+        flex-direction: column;
+        padding-top: 120px;
+    }
+    .first-content h1{
+        font-size: 2.9rem
+    }
+    .first-content p{
+       font-size: 1.7rem;
+    }
+    .view{
+        padding: 12px 18px;
+        font-size: 0.8rem;
+    }
+    .experience-container{
+        flex-direction: column;
+        align-items: center;
+        margin-left: 0;
+        gap: 20px;
+    }
+    .experience-card{
+        width: 90%;
+    }
+    .experience-photo img{
+        height: 220px;
+    }
+    .whychoose{
+        padding: 25px;
+        font-size: 0.9rem;
+    }
+    .destination-background{
+        justify-content: center;
+        padding-right: 0px;
+    }
+    .destination-title{
+        width: 90%;
+        padding: 15px;
+    }
+    .destination-title h1{
+        font-size: 2.5rem;
+        margin-bottom: 30px;
+    }
+    .destination-title p{
+        font-size: 0.9rem;
+        margin-top: 20px;
+        line-height: 1.6;
+    }
+    .explore-destination{
+        padding: 12px 18px;
+        font-size: 0.8rem;
+    }
+    .destination-container{
+        grid-template-columns: 1fr;
+        padding-left: 30px;
+        justify-content: center;
+        gap: 20px;
+    }
+    .destination-card{
+        width: 90%;
+        height: auto;
+    }
+    .destination-photo img{
+        height: 220px;
+    }
+    .destination-content{
+        padding: 15px;
+        font-size: 0.9rem;
+    }
+    .hotel-container{
+        grid-template-columns: 1fr;
+        padding-left: 0px;
+        padding-right: 30px;
+        justify-content: center;
+        gap: 20px;
+        margin-bottom: 20px;
+    }
+    .hotel-card{
+        width: 100%;
+    }
+    .hotel-review{
+        padding: 15px;
+        font-size: 0.9rem;
+    }
+    #food-herobanner{
+        flex-direction: column;
+        gap: 20px;
+        align-items: center;
+    }
+    .food-content{
+        width: 90%;
+        padding: 150px 30px 0px;
+        font-size: 0.9rem;
+        line-height: 1.6;
+    }
+    .explorefood{
+        font-size: 0.9rem;
+        padding: 10px;
+    }
+    .photo{
+        width: 90%;
+        padding-top: 20px;
+    }
+    .foodcontainer{
+        grid-template-columns: 1fr;
+        padding-left: 0px;
+        justify-items: center;
+        gap: 20;
+    }
+    .foodcard{
+        width: 90%;
+        height: auto;
+        font-size: 0.8rem;
+    }
+    .foodcard img{
+        height: 220px;
+    }
+    .restaurants-review{
+        flex-direction: column;
+        grid-template-columns: 1fr;
+        padding-left: 0px;
+        justify-items: center;
+        gap: 20px;
+        margin-bottom: 20px;
+    }
+    .restaurants-card{
+        width: 90%;
+        height: auto;
+        font-size: 0.9rem;
+    }
+    .restaurants-card img{
+        height: 220px;
+    }
+    .button{
+        display: flex;
+        gap: 10px;
+        margin-top: auto;
+    }
+    .button button{
+        width: auto;
+        padding: 8px;
+        font-size: 0.8rem;
+        flex: 1;
+    }
+    .gallery-container{
+        grid-template-columns: 1fr;
+        margin-left: 0px;
+        justify-items: center;
+        gap: 20px;
+    }
+    .gallery-card{
+        width: 90%;
+        height: auto;
+    }
+    .gallery-card img{
+        height: 220px;
+    }
+    .CTA-container{
+        flex-direction: column;
+        align-items: center;
+        margin-left: 0px;
+        gap: 20px;
+    }
+    .CTA-image{
+        width: 90%;
+        height: auto;
+    }
+    .CTA-image img{
+        width: 100%;
+        height: auto;
+    }
+    .CTA-content{
+        width: 90%;
+        padding: 15px;
+    }
+    .CTA-content h1{
+        font-size: 1.5rem;
+    }
+    .CTA-content p{
+        font-size: 0.9rem;
+    }
+    .start{
+        font-size: 0.8rem;
+        padding: 10px;
+    }
+    .container-content{
+        width: 90%;
+        left: 5%;
+        font-size: 1rem;
+    }
+    .content{
+        width: 90%;
+        left: 5%;
+        right: auto;
+        bottom: 50px;
+        font-size: 0.9rem;
+        line-height: 1.6;
+    }
+    .detail-contact{
+        flex-direction: column;
+        padding: 30px 0;
+    }
+    .card{
+        width: 90%;
+        height: auto;
+        margin-top: 20px;
+    }
+    .detail p{
+        font-size: 1rem;
+    }
+    #detail-contact h1{
+        font-size: 1.8rem;
+    }
+    #detail-contact h3{
+        font-size: 1rem;
+    }
+    #contact-form{
+        padding-top: 80px;
+    }
+    .form{
+        width: 90%;
+        height: auto;
+        padding: 30px 10px;
+    }
+}
